@@ -1,4 +1,4 @@
-const score =400
+const score = 400
 // console.log(score);
 
 const bal = new Number(100)
@@ -6,10 +6,10 @@ const bal = new Number(100)
 // console.log(bal.toString().length);
 // console.log(bal.toFixed(1));
 
-const num=123.890
+const num = 123.890
 // console.log(num.toPrecision(2));
 
-const change=10000000000
+const change = 10000000000
 // console.log(change.toLocaleString("en-IN"));
 
 
@@ -25,10 +25,6 @@ const change=10000000000
 // console.log((Math.random()*10)+1);
 // console.log(Math.floor(Math.random()*10)+1);
 
-const min=10
-const max=20
-console.log(Math.floor(Math.random()*(max-min+1)+max));
-
-
-
-
+const min = 10
+const max = 20
+console.log(Math.floor(Math.random() * (max - min + 1) + max));
