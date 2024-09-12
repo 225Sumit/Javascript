@@ -27,9 +27,28 @@ function add(num1,num2) {
 // console.log("Result:",result);
 
 
-function loginUser(username){
-    console.log(`${username} just logged In`);
-    return
+// function loginUser(username){
+//     console.log(`${username} just logged In`);
+//     return
      
+// }
+// loginUser("sumit")
+
+// function Additems(...item){
+//     console.log(item);
+    
+//     return item
+// }
+// Additems(10,23,4,5,5,6,62,2,2323,3234)
+
+
+const user={
+    Name:"sumit gupta",
+    RollNo:210023
 }
-loginUser("sumit")
+
+function supe(obj){
+    console.log(`name is ${obj.Name} and rollno is ${obj.RollNo}`);
+    
+}
+supe(user)
