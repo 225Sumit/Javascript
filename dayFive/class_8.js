@@ -14,10 +14,10 @@
 // console.log(myTotal);
 
 
-const shoppingcart=[{itemName:'js course',price:2999},
-    {itemName:'py course',price:1999},
-    {itemName:'java course',price:3999},
-    {itemName:'rube course',price:6999},
-]
-const priceToPay=shoppingcart.reduce((acc,nex)=>acc+nex.price,0)
-console.log(priceToPay);
+// const shoppingcart=[{itemName:'js course',price:2999},
+//     {itemName:'py course',price:1999},
+//     {itemName:'java course',price:3999},
+//     {itemName:'rube course',price:6999},
+// ]
+// const priceToPay=shoppingcart.reduce((acc,nex)=>acc+nex.price,0)
+// console.log(priceToPay);
