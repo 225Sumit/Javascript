@@ -13,8 +13,11 @@ lorem.style.backgroundColor="red"
 
 const lore=document.querySelectorall("li")
 // const nl= lore.querySelectorall("li")
-lore[1].style.backgroundColor="red"
-
+// lore[1].style.backgroundColor="red"
+lore.forEach(function(l){
+    l.style.backgroundColor="red"
+})
+ 
 
 
 
