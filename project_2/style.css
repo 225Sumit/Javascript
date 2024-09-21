@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: bisque;
+}
+.container{
+    text-align: center;
+    padding: 10%;
+    line-height: 50px;
+}
+input{
+    padding: 10px;
+    
+}
+button{
+    margin-top:10px ;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+}
+
+#result{
+    margin-top:20px ;
+   
+    font-size: 30px;
+    
+}
+
+label{
+    font-size:20px;
+}
