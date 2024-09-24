@@ -9,7 +9,7 @@
     API PROJECT
 </body>
 <script>
-    const requrl= `https://api.github.com/users/225sumit`
+    const requrl= `https://api.github.com/users/ptamit1207`
     const xhr = new XMLHttpRequest();
     xhr.open('GET',requrl)
     xhr.onreadystatechange = function(){
@@ -17,7 +17,7 @@
             const data = JSON.parse(this.responseText)
             console.log(typeof data);
             console.log(data.followers);
-           let photo = data.avatar_url
+           let photo = data.public_repos
            console.log(photo);
             
         }
